@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     # bucket = "brahmam005-remote-state"
-    # key    = "workspace"
+    # key    = "vpc-test"
     # region = "us-east-1"
     # dynamodb_table = "brahmam005-locking"
   }
